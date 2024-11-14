@@ -8,7 +8,7 @@ public class Shuriken : Weapon
 
     void Start()
     {
-        Damage = 25;
+        Damage = 10;
         speed = 10.0f * GetShootDirection();
     }
 

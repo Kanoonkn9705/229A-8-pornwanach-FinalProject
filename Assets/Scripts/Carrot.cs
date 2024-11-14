@@ -8,7 +8,7 @@ public class Carrot : Weapon
 
     void Start()
     {
-        Damage = 30;
+        Damage = 20;
         speed = 10.0f * GetShootDirection();
     }
 

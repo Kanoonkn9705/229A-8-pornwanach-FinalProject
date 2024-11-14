@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bird : Enemy , IShootable
 {
-    private float attackRange = 5f;
+    private float attackRange = 10f;
 
     [SerializeField] private Player player;
 
